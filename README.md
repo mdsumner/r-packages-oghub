@@ -69,7 +69,7 @@ Fill out the [DESCRIPTION file](http://r-pkgs.had.co.nz/description.html).
 [Document the functions](http://r-pkgs.had.co.nz/man.html) by using [roxygen2](https://roxygen2.r-lib.org/) putting the documentation right next to the code in the .R files. 
 
 * Consider use of the [RMarkdown formatting](https://cran.r-project.org/web/packages/roxygen2/vignettes/markdown.html) for R documentation, to enable this run
-* **VERY IMPORTANT: ** if using RStudio, go to Tools/Project Options/ - set "Generate documentation with roxygen2" in Build Tools. 
+* **VERY IMPORTANT:** if using RStudio, go to Tools/Project Options/ - set "Generate documentation with roxygen2" in Build Tools. 
 
 
 ```R
