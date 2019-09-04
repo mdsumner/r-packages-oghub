@@ -40,7 +40,7 @@ mse <- function(predicted, observed) {
 * Use the `usethis` package to work through all the boring details
 * Use the `devtools` package to develop and test your package
 
-# Step 1
+# Step 1 - name
 
 This is the hardest part. 
 
@@ -48,7 +48,7 @@ What is your package *name*?
 
 "mypackage"   ## no underscores, dots, spaces, dashes, profanity, etc. 
 
-# Step 2
+# Step 2 - create package folder and parts
 
 Create the package skeleton. Open this as a project with RStudio if you like. 
 
@@ -58,11 +58,11 @@ Running this code will automatically open it as a project.
 usethis::create_package("mypackage")
 ```
 
-# Step 3
+# Step 3 - add code
 
 Put your R code into R files in  `R/files.R`
 
-# Step 4
+# Step 4 - package metadata and doc
 
 Fill out the [DESCRIPTION file](http://r-pkgs.had.co.nz/description.html) and [document the functions](http://r-pkgs.had.co.nz/man.html). 
 
@@ -73,9 +73,14 @@ usethis::use_roxygen_md()
 ```
 
 
-# Step 5
+# Step 5 - build and use
 
 Build the package, use `devtools::load_all()`, `devtools::build()`, `devtools::check()`. 
+
+# Step 6 - formal testing
+
+Write tests with [testthat](https://testthat.r-lib.org/). 
+
 
 # Optional, put package on Github
 
