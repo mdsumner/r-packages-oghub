@@ -5,12 +5,12 @@ Here is a quick introduction to creating R packages.
 Please install first
 
 ```R
-install.packages("remotes") 
+if (!requireNamespace("remotes")) install.packages("remotes") 
 remotes::install_cran(c("devtools", "roxygen2", "testthat", "spelling", "usethis"))
 
 ```
 
-R functions
+R functions - put these into R/files.R, can be separate files or just in one file - personal choice. 
 
 ```R
 # assigns numbers as names to columns of a data frame
