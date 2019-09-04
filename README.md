@@ -32,8 +32,52 @@ mse <- function(predicted, observed) {
  }
 ```
 
+# Overview
+
+* Contents of a package
+* Tools for package creation
+* Resources, R Packages book
+
+# Step 1
+
+This is the hardest part. 
+
+What is your package *name*?  
 
 
+"mypackage"   ## no underscores, dots, spaces, dashes, profanity, etc. 
+
+
+
+
+# Step 2
+
+Create the package skeleton. Open this as a project with RStudio if you like. 
+
+Running this code will automatically open it as a project. 
+
+```R
+usethis::create_package("mypackage")
+```
+
+# Step 3
+
+Put your R code into R files in  `R/files.R`
+
+# Step 4
+
+Fill out the DESCRIPTION file and document the functions. 
+
+# Step 5
+
+Build the package, use `devtools::load_all()`, `devtools::build()`, `devtools::check()`. 
+
+# Optional, put package on Github
+
+Requires Git installed. See the [R Packages book](http://r-pkgs.had.co.nz/) for details. 
+
+* Create a repository on Github
+* Initiate Git in your project, link it to Github repository
 
 
 
