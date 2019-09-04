@@ -36,7 +36,9 @@ mse <- function(predicted, observed) {
 
 * Contents of a package
 * Tools for package creation
-* Resources, R Packages book
+* See the [R Packages book](http://r-pkgs.had.co.nz/) for details. 
+* Use the `usethis` package to work through all the boring details
+* Use the `devtools` package to develop and test your package
 
 # Step 1
 
@@ -44,11 +46,7 @@ This is the hardest part.
 
 What is your package *name*?  
 
-
 "mypackage"   ## no underscores, dots, spaces, dashes, profanity, etc. 
-
-
-
 
 # Step 2
 
@@ -66,7 +64,14 @@ Put your R code into R files in  `R/files.R`
 
 # Step 4
 
-Fill out the DESCRIPTION file and document the functions. 
+Fill out the [DESCRIPTION file](http://r-pkgs.had.co.nz/description.html) and [document the functions](http://r-pkgs.had.co.nz/man.html). 
+
+* Consider use of the [RMarkdown formatting]() for R documentation, to enable this run
+
+```R
+usethis::use_roxygen_md()
+```
+
 
 # Step 5
 
