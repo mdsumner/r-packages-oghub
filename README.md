@@ -1,6 +1,8 @@
-# R package
+# R packages
 
 Here is a quick introduction to creating R packages. 
+
+## Preparation
 
 Please install first
 
@@ -9,6 +11,8 @@ if (!requireNamespace("remotes")) install.packages("remotes")
 remotes::install_cran(c("devtools", "roxygen2", "testthat", "spelling", "usethis"))
 
 ```
+
+We will use these R functions in an example package, but feel free to use your own. 
 
 R functions - put these into R/files.R, can be separate files or just in one file - personal choice. 
 
