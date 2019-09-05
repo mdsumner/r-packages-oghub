@@ -8,7 +8,7 @@ Please install first
 
 ```R
 if (!requireNamespace("remotes")) install.packages("remotes") 
-remotes::install_cran(c("devtools", "roxygen2", "testthat", "spelling", "usethis"))
+remotes::install_cran(c("devtools", "roxygen2", "testthat", "spelling", "usethis", "pkgdown"))
 
 ```
 
