@@ -12,7 +12,9 @@ remotes::install_cran(c("devtools", "roxygen2", "testthat", "spelling", "usethis
 
 ```
 
-We will use these R functions in an example package, but feel free to use your own. 
+## Code for a package 
+
+Please use your own functions in a new package you create, but you may use one or all three of these example functions. 
 
 R functions - put these into R/files.R, can be separate files or just in one file - personal choice. 
 
