@@ -67,6 +67,8 @@ usethis::create_package("mypackage")
 
 Put your R code into R files in  `R/files.R`
 
+Create a built-in data set. Use the data-raw/ mechanism. 
+
 # Step 4 - package metadata and doc
 
 Fill out the [DESCRIPTION file](http://r-pkgs.had.co.nz/description.html). 
