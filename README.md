@@ -51,8 +51,7 @@ mse <- function(predicted, observed) {
 This is the hardest part. 
 
 What is your package *name*?  
-
-"mypackage"   ## no underscores, dots, spaces, dashes, profanity, etc. 
+"zooperdanke"   ## no underscores, dots, spaces, dashes, profanity, etc. 
 
 # Step 2 - create package folder and parts
 
